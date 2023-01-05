@@ -5,8 +5,10 @@ This blockchain is made up of blocks that are constructed using a balanced Merkl
 The first block's hash is calculated by taking the md5 hash of the concatenation of the initialization vector (IV) and the first block's TX root. The hash of the rest of the blocks is calculated by taking the md5 hash of the concatenation of the previous block's hash and the current block's TX root.
 
 Example Balanced Merkle Trees
+
+```
 Height = 3, Sons = 2:
-``` 
+ 
       TX root
        / \
       /   \
@@ -22,6 +24,7 @@ O O   O O  O O   O O
 ```
 
 
+```
 Height = 2, Sons = 3:
 
 
@@ -42,4 +45,4 @@ O  O  O | O  O  O
     O  O  O
     |  |  |
     3  4  5
-
+```
