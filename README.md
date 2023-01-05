@@ -6,6 +6,7 @@ The first block's hash is calculated by taking the md5 hash of the concatenation
 
 Example Balanced Merkle Trees
 Height = 3, Sons = 2:
+``` 
       TX root
        / \
       /   \
@@ -18,7 +19,7 @@ O     O  O     O
 O O   O O  O O   O O
 | |   | |  | |   | |
 0 1   2 3  4 5   6 7
-
+```
 
 
 Height = 2, Sons = 3:
